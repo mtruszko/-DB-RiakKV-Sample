@@ -1,0 +1,42 @@
+* Rebuilt URL to: –XPOST/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPOST
+* Closing connection 0
+curl: (6) Could not resolve host: –XPOST
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 66
+>
+* upload completely sent off: 66 out of 66 bytes
+< HTTP/1.1 201 Created
+HTTP/1.1 201 Created
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6sEddhYPBTzGBKZMxjZRD9uvMyXxYA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6sEddhYPBTzGBKZMxjZRD9uvMyXxYA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Location: /buckets/s16391/keys/I39jTWfoKBsN0JAMCyyCc12NL8x
+Location: /buckets/s16391/keys/I39jTWfoKBsN0JAMCyyCc12NL8x
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 23:07:01 GMT
+Last-Modified: Thu, 28 Dec 2017 23:07:01 GMT
+< ETag: "77Ew68jVz4Gbs8bieIWC4b"
+ETag: "77Ew68jVz4Gbs8bieIWC4b"
+< Date: Thu, 28 Dec 2017 23:07:01 GMT
+Date: Thu, 28 Dec 2017 23:07:01 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 66
+Content-Length: 66
+
+<
+* Connection #1 to host localhost left intact
+{"name": "noewn", "nationality": "ABC", "sex": "male", "age": 222}%

@@ -1,0 +1,32 @@
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /buckets/s16391/keys/marek HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk4sEwtmYFAXzGBKZM9jZdD6sPMyXxYA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk4sEwtmYFAXzGBKZM9jZdD6sPMyXxYA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "4Ontkac3TzAY25Q3urz2Mx"
+ETag: "4Ontkac3TzAY25Q3urz2Mx"
+< Date: Thu, 28 Dec 2017 22:50:08 GMT
+Date: Thu, 28 Dec 2017 22:50:08 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 64
+Content-Length: 64
+
+<
+* Connection #0 to host localhost left intact
+{"name": "Marek", "nationality": "PL", "sex": "male", "age": 26}%

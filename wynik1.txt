@@ -1,0 +1,196 @@
+* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/marek?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 64
+>
+* upload completely sent off: 64 out of 64 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk4sEwtmYFAXzGBKZM9jZdD6sPMyXxYA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk4sEwtmYFAXzGBKZM9jZdD6sPMyXxYA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "4Ontkac3TzAY25Q3urz2Mx"
+ETag: "4Ontkac3TzAY25Q3urz2Mx"
+< Date: Thu, 28 Dec 2017 22:46:02 GMT
+Date: Thu, 28 Dec 2017 22:46:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 64
+Content-Length: 64
+
+<
+* Connection #1 to host localhost left intact
+{"name": "Marek", "nationality": "PL", "sex": "male", "age": 26}* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/qwerty?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 67
+>
+* upload completely sent off: 67 out of 67 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6szU5kYFAXzGBKZM5jZdD6sPMyXxYA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6szU5kYFAXzGBKZM5jZdD6sPMyXxYA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "26Nkd2gCPZDj2Iim1GwAEM"
+ETag: "26Nkd2gCPZDj2Iim1GwAEM"
+< Date: Thu, 28 Dec 2017 22:46:02 GMT
+Date: Thu, 28 Dec 2017 22:46:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 67
+Content-Length: 67
+
+<
+* Connection #1 to host localhost left intact
+{"name": "qwerty", "nationality": "USA", "sex": "male", "age": 234}* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/asdfgh?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 69
+>
+* upload completely sent off: 69 out of 69 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk5s+lfMwKAumMGUyJzHyqD1YedlviwA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk5s+lfMwKAumMGUyJzHyqD1YedlviwA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "5dRB2VzMunhJHdC6DVQHnF"
+ETag: "5dRB2VzMunhJHdC6DVQHnF"
+< Date: Thu, 28 Dec 2017 22:46:02 GMT
+Date: Thu, 28 Dec 2017 22:46:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 69
+Content-Length: 69
+
+<
+* Connection #1 to host localhost left intact
+{"name": "asdfgh", "nationality": "USA", "sex": "female", "age": 345}* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/zxcvb?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 67
+>
+* upload completely sent off: 67 out of 67 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk7sutnNwKAumMGUyJzHyqD1YedlviwA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk7sutnNwKAumMGUyJzHyqD1YedlviwA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "1yn0H05v3d4vvhfFcqIolx"
+ETag: "1yn0H05v3d4vvhfFcqIolx"
+< Date: Thu, 28 Dec 2017 22:46:02 GMT
+Date: Thu, 28 Dec 2017 22:46:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 67
+Content-Length: 67
+
+<
+* Connection #1 to host localhost left intact
+{"name": "zxcvb", "nationality": "PL", "sex": "female", "age": 455}* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/123456?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 66
+>
+* upload completely sent off: 66 out of 66 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6svj+FgUFdMIMpkTmPlUHrw87LfFkA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6svj+FgUFdMIMpkTmPlUHrw87LfFkA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+Last-Modified: Thu, 28 Dec 2017 22:46:02 GMT
+< ETag: "4tuPa51ovAteNfxOG6XnY9"
+ETag: "4tuPa51ovAteNfxOG6XnY9"
+< Date: Thu, 28 Dec 2017 22:46:02 GMT
+Date: Thu, 28 Dec 2017 22:46:02 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 66
+Content-Length: 66
+
+<
+* Connection #1 to host localhost left intact
+{"name": "qazxsw", "nationality": "USA", "sex": "male", "age": 99}%

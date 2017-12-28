@@ -1,0 +1,40 @@
+* Rebuilt URL to: –XPUT/
+* IDN support not present, can't parse Unicode domains
+* Could not resolve host: –XPUT
+* Closing connection 0
+curl: (6) Could not resolve host: –XPUT
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#1)
+> POST /buckets/s16391/keys/123456?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 80
+>
+* upload completely sent off: 80 out of 80 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6svj+FgUFdMIMpkSWPlWH7p52X+bIA
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fk6svj+FgUFdMIMpkSWPlWH7p52X+bIA
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16391>; rel="up"
+Link: </buckets/s16391>; rel="up"
+< Last-Modified: Thu, 28 Dec 2017 22:56:55 GMT
+Last-Modified: Thu, 28 Dec 2017 22:56:55 GMT
+< ETag: "6PDMvRgOQBc1hQ5JsDKcEU"
+ETag: "6PDMvRgOQBc1hQ5JsDKcEU"
+< Date: Thu, 28 Dec 2017 22:56:55 GMT
+Date: Thu, 28 Dec 2017 22:56:55 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 80
+Content-Length: 80
+
+<
+* Connection #1 to host localhost left intact
+{"name": "qazxsw", "nationality": "USA", "sex": "male", "age": 99, "year": 1111}

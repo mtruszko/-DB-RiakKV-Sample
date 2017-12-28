@@ -1,0 +1,23 @@
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> DELETE /buckets/s16391/keys/I39jTWfoKBsN0JAMCyyCc12NL8x HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+>
+< HTTP/1.1 204 No Content
+HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Thu, 28 Dec 2017 23:09:19 GMT
+Date: Thu, 28 Dec 2017 23:09:19 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 0
+Content-Length: 0
+
+<
+* Connection #0 to host localhost left intact

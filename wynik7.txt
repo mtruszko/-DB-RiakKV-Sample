@@ -1,0 +1,22 @@
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /buckets/s16391/keys/qwerty HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.54.0
+> Accept: */*
+>
+< HTTP/1.1 404 Object Not Found
+HTTP/1.1 404 Object Not Found
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Thu, 28 Dec 2017 23:04:57 GMT
+Date: Thu, 28 Dec 2017 23:04:57 GMT
+< Content-Type: text/plain
+Content-Type: text/plain
+< Content-Length: 10
+Content-Length: 10
+
+<
+not found
+* Connection #0 to host localhost left intact

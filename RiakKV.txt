@@ -1,0 +1,69 @@
+RiakKV
+
+1. Umieść w bazie (nazwa bucketa ma być Twoim numerem indeksu poprzedzonym literą „s”) 5 wartości, gdzie każda z nich ma być dokumentem json mającym 4 pola co najmniej dwóch różnych typów.
+
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "Marek", "nationality": "PL", "sex": "male", "age": 26}' \
+http://localhost:8098/buckets/s16391/keys/marek?returnbody=true
+\
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "qwerty", "nationality": "USA", "sex": "male", "age": 234}' \
+http://localhost:8098/buckets/s16391/keys/qwerty?returnbody=true
+\
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "asdfgh", "nationality": "USA", "sex": "female", "age": 345}' \
+http://localhost:8098/buckets/s16391/keys/asdfgh?returnbody=true
+\
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "zxcvb", "nationality": "PL", "sex": "female", "age": 455}' \
+http://localhost:8098/buckets/s16391/keys/zxcvb?returnbody=true
+\
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "qazxsw", "nationality": "USA", "sex": "male", "age": 99}' \
+http://localhost:8098/buckets/s16391/keys/123456?returnbody=true
+
+2. Pobierz z bazy jedną z dodanych przez Ciebie wartości.
+
+curl -v -i http://localhost:8098/buckets/s16391/keys/marek
+
+3. Zmodyfikuj jedną z wartości – dodając dodatkowe pole do dokumentu.
+
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "qazxsw", "nationality": "USA", "sex": "male", "age": 99, "year": 1111}' \
+http://localhost:8098/buckets/s16391/keys/123456?returnbody=true
+
+4. Zmodyfikuj jedną z wartości – usuwając jedną pole z wybranego dokumentu.
+
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "zxcvb", "nationality": "PL", "sex": "female"}' \
+http://localhost:8098/buckets/s16391/keys/zxcvb?returnbody=true
+
+5. Zmodyfikuj jedną z wartości – zmieniając wartość jednego z pól.
+
+curl -v -i –XPUT -H "Content-Type: application/json" \
+-d '{"name": "Marek", "nationality": "PL", "sex": "male", "age": 27}' \
+http://localhost:8098/buckets/s16391/keys/marek?returnbody=true
+
+6. Usuń jeden z dokumentów z bazy.
+
+curl -v -i -XDELETE \
+http://localhost:8098/buckets/s16391/keys/qwerty
+
+7. Spróbuj pobrać z bazy wartość, która nie istnieje w tej bazie.
+
+curl -v -i http://localhost:8098/buckets/s16391/keys/qwerty
+
+8. Dodaj do bazy 1 dokument json (zawierający 1 pole), ale nie specyfikuj klucza.
+
+curl -v -i –XPOST -H "Content-Type: application/json" \
+-d '{"name": "noewn", "nationality": "ABC", "sex": "male", "age": 222}' \
+http://localhost:8098/buckets/s16391/keys?returnbody=true
+
+9. Pobierz z bazy element z zadania 8.
+
+curl -v -i http://localhost:8098/buckets/s16391/keys/I39jTWfoKBsN0JAMCyyCc12NL8x
+
+10. Usuń z bazy element z zadania 8.
+
+curl -v -i -XDELETE http://localhost:8098/buckets/s16391/keys/I39jTWfoKBsN0JAMCyyCc12NL8x
+
